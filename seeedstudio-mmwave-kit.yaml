@@ -33,11 +33,11 @@ logger:
 
 # Enable Home Assistant API
 api:
-  #encryption:
-  #  key: "your-key-here"
+  encryption:
+    key: "your-key-here"
 
 ota:
-  #password: "your-password-here"
+  password: "your-password-here"
 
 # Connect to WiFi & create captive portal and web server
 wifi:
