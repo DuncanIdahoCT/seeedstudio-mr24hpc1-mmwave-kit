@@ -187,7 +187,7 @@ public:
 
     Sensor *movementSigns = new Sensor();
     Sensor *inited = new Sensor();
-	Sensor *presence_sensor = new Sensor();
+    Sensor *presence_sensor = new Sensor();
 
     void setup();
     void loop();
@@ -803,15 +803,10 @@ void UartReadLineSensor::R24_frame_parse_human_information(uint8_t *data)
 {
     if (data[FRAME_COMMAND_WORD_INDEX] == 0x01)
     {
-
         id(someoneExists).publish_state(s_someoneExists_str[data[FRAME_DATA_INDEX]]);
         ESP_LOGD(TAG, "Report: someoneExists %d", data[FRAME_DATA_INDEX]);
-
-
-		int presence_sensor_value = data[FRAME_DATA_INDEX];
-		presence_sensor->publish_state(presence_sensor_value);
-
-
+	int presence_sensor_value = data[FRAME_DATA_INDEX];
+	presence_sensor->publish_state(presence_sensor_value);
     }
     else if (data[FRAME_COMMAND_WORD_INDEX] == 0x02)
     {
