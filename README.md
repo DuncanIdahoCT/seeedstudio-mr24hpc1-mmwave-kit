@@ -13,11 +13,17 @@ I've done very little other than remove extranious code not useful for my purpos
 Here are the primary Human Presence sensors in their basic states:
 
 Nobody... you'll see the binary_sensor Presense is now OFF
+
 ![ESPHome HA Integration](/static/images/Nobody%20-%20Binary_Sensor%3DOFF.png)
+
 Somebody... moving... you'll see the binary_sensor Presense is now ON
+
 ![ESPHome HA Integration](/static/images/Someone%2BActive%20-%20Binary_Sensor%3DON.png)
+
 Somebody... but not moving... you'll see the binary_sensor Presense REMAINS ON
+
 ![ESPHome HA Integration](/static/images/Someone%2BMotionless%20-%20Binary_Sensor%3DON.png)
+
 
 # Installation:
  * Download the C++ header file and copy it (keeping the subfolder paths) into your Home Assistant config/esphome main folder:
