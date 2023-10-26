@@ -3,7 +3,7 @@ SeeedStudio mmWave Human Detection Sensor Kit - Simplified HomeAssistant Integra
 
 This project is a simple Home Assistant / ESPHome integration using the example code from https://github.com/limengdu
 
-![ESP Capive Portal](/static/images/ESP%20Captive%20Portal.png)
+![ESP Capive Portal](/static/images/ESP32%20Captive%20Portal.png)
 
 Find the original project here:
 https://github.com/limengdu/MR24HPC1_HomeAssistant/tree/mmwave-kit
