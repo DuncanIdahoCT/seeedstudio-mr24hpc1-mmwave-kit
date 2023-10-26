@@ -18,7 +18,7 @@ esphome:
     board_build.flash_mode: dio
     board_build.mcu: esp32c3
   includes:
-    - header/mr24hpc1_mmwave_kit.h
+    - header/seeedstudio-mmwave-kit.h
 
 esp32:
   board: esp32-c3-devkitm-1
