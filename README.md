@@ -1,5 +1,5 @@
 # seeedstudio-mr24hpc1-mmwave-kit
-SeeedStudio mmWave Human Detection Sensor Kit - Simplified HomeAssistant Integration and Binary_Sensor
+## SeeedStudio mmWave Human Detection Sensor Kit - Simplified HomeAssistant Integration and Binary_Sensor
 
 This project is a simple Home Assistant / ESPHome integration using the example code from https://github.com/limengdu
 
