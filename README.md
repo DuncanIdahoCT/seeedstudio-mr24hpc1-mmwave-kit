@@ -31,7 +31,13 @@ I also added the http webserver so you can more easily diagnose issues as you te
 
 ![ESP Capive Portal](/static/images/ESP32%20Captive%20Portal.png)
 
-SeeedStudio mmWave Human Detection Sensor Kit
+The SeeedStudio mmWave Human Detection Sensor Kit has a LOT!!! of settings:
+
+![ESP Capive Portal](/static/images/Home%20Assistant.png)
+
+I've not bothered to sift through them all, please refer to the original project link above and also here is the product link below:
+
+https://www.seeedstudio.com/mmWave-Human-Detection-Sensor-Kit-p-5773.html?queryID=6825be08a60b0d5e2fa41c28d540b6aa&objectID=5773&indexName=bazaar_retailer_products
 
 # Installation:
  * Download the C++ header file and copy it (keeping the subfolder paths) into your Home Assistant config/esphome main folder:
