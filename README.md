@@ -3,12 +3,13 @@ SeeedStudio mmWave Human Detection Sensor Kit - Simplified HomeAssistant Integra
 
 This project is a simple Home Assistant / ESPHome integration using the example code from https://github.com/limengdu
 
-![ESP Capive Portal](/static/images/ESP32%20Captive%20Portal.png)
-
 Find the original project here:
 https://github.com/limengdu/MR24HPC1_HomeAssistant/tree/mmwave-kit
 
-I've done very little other than remove extranious code not useful for my purposes and added, quite messy in fact, a simple binary_sensor for human presense
+I've done very little other than remove extraneous code not useful for my purposes and added, quite messy in fact, a simple binary_sensor for human presense
+And... perhaps... shorten up the instructions a bit ;) You really don't need to use the built in WiFi method to add these kits to HomeAssistant and also you can't then update them in ESPHome unless you add the yaml and header from somewhere... and I've made it super easy to do this below under # Installation
+
+![ESP Capive Portal](/static/images/Binary_Sensor.png)
 
 Here are the primary Human Presence sensors in their basic states:
 
@@ -24,6 +25,11 @@ Somebody... but not moving... you'll see the binary_sensor Presense REMAINS ON
 
 ![ESPHome HA Integration](/static/images/Someone%2BMotionless%20-%20Binary_Sensor%3DON.png)
 
+I also added the http webserver so you can more easily diagnose issues as you test:
+
+![ESP Capive Portal](/static/images/ESP32%20Captive%20Portal.png)
+
+SeeedStudio mmWave Human Detection Sensor Kit
 
 # Installation:
  * Download the C++ header file and copy it (keeping the subfolder paths) into your Home Assistant config/esphome main folder:
@@ -118,3 +124,4 @@ Somebody... but not moving... you'll see the binary_sensor Presense REMAINS ON
       password: "${wifi_password}"
       use_address: XXX.XXX.XXX.XXX
    ```
+* The easiest initial "install" is to plug the seeedstudio-mmwave-kit direct to your PC and use the ESPHome Web install method via USB COM port. You'll see the device show up as a JTAG, if you have more than one ESP connected, I recommend removing the others to ensure you don't erase something else.
