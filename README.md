@@ -9,6 +9,8 @@ https://github.com/limengdu/MR24HPC1_HomeAssistant/tree/mmwave-kit
 I've done very little other than remove extraneous code not useful for my purposes and added, quite messy in fact, a simple binary_sensor for human presense
 And... perhaps... shorten up the instructions a bit ;) You really don't need to use the built in WiFi method to add these kits to HomeAssistant and also you can't then update them in ESPHome unless you add the yaml and header from somewhere... and I've made it super easy to do this below under # Installation
 
+Binary_Sensor... yay!!!
+
 ![ESP Capive Portal](/static/images/Binary_Sensor.png)
 
 Here are the primary Human Presence sensors in their basic states:
